@@ -6,7 +6,7 @@ Proyecto de análisis de datos y modelado predictivo sobre accidentes de tránsi
 
 ## Contexto de Negocio
 
-Las autoridades de seguridad vial necesitan información basada en datos para diseñar políticas de prevención más efectivas. Este proyecto analiza los registros de accidentes de tránsito en Brasil desde 2020 hasta mediados de 2023, con el objetivo de identificar patrones y factores de riesgo que puedan orientar decisiones de seguridad vial.
+Las autoridades de seguridad vial necesitan información basada en datos para diseñar políticas de prevención más efectivas. Este proyecto analiza los registros de accidentes de tránsito en Brasil entre 2020 y 2022, con el objetivo de identificar patrones y factores de riesgo que puedan orientar decisiones de seguridad vial.
 
 ## Preguntas de Interés
 
@@ -39,9 +39,9 @@ El análisis también aborda con honestidad las limitaciones del modelo (desbala
 
 ## 📁 Archivos
 
-- [**Proyecto_final_DS.ipynb**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto_final_DS.ipynb) — Notebook completo del análisis (EDA, prueba de hipótesis, selección de variables, modelado)
-- [**Proyecto final.pdf**](<https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto%20final.pdf>) — Presentación / informe del proyecto
-- [**Acidentes_Brasil_2020-2022.csv**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Acidentes_Brasil_2020-2022.csv) — Dataset original
+- [**Proyecto_final_DS.ipynb**](https://github.com/Luovelar/Analisis-Accidentes-Brasil/blob/main/Proyecto_final_DS.ipynb) — Notebook completo del análisis (EDA, prueba de hipótesis, selección de variables, modelado)
+- [**Proyecto final.pdf**](<https://github.com/Luovelar/Analisis-Accidentes-Brasil/blob/main/Proyecto%20final.pdf>) — Presentación / informe del proyecto
+- [**Acidentes_Brasil_2020-2022.csv**](https://github.com/Luovelar/Analisis-Accidentes-Brasil/blob/main/Acidentes_Brasil_2020-2022.csv) — Dataset original
 
 ---
 

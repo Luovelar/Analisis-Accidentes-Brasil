@@ -1,48 +1,48 @@
-﻿# 🚗 Brazil Road Accidents Analysis (2020–2023)
+﻿# 🚗 Análisis de Accidentes de Tránsito en Brasil (2020–2022)
 
-Data analysis and predictive modeling project exploring road accidents in Brazil, framed around a real road-safety business problem.
-
----
-
-## Business Context
-
-Road safety authorities need data-driven insight to design more effective prevention policies. This project analyzes traffic accident records in Brazil from 2020 to mid-2023, aiming to identify patterns and risk factors that can inform road-safety decisions.
-
-## Key Questions Explored
-
-- What is the trend in total accidents over the years?
-- Is there seasonality in accident occurrence by month or season?
-- Which weather conditions are most common in accidents, and how do they affect severity?
-- Which days of the week see the most accidents?
-- How are accidents distributed across road types?
-- What time of day sees the highest accident frequency?
-- Which Brazilian states (Unidades Federais) have the highest accident rates?
-
-## Key Insights
-
-- Accident frequency stayed fairly constant across months/seasons, with no strong seasonal effect.
-- Weekends showed higher accident volumes than expected, suggesting leisure/non-commute travel as a contributing factor.
-- Most accidents occurred under clear weather, not adverse conditions — pointing to overconfidence or higher traffic volume as likely factors.
-- Afternoon and evening hours had the highest accident concentration.
-- Minas Gerais, Santa Catarina, and Paraná stood out with the highest accident rates, suggesting a need for region-specific safety policies.
-
-## Predictive Modeling
-
-Beyond the exploratory analysis, the project applies **Information Value (IV)** analysis for feature selection, then builds and compares two classification models to predict accident severity:
-
-- **Decision Tree** — ~82% training accuracy, ~79% test accuracy
-- **Random Forest** (with hyperparameter tuning via GridSearchCV) — 82.25% test accuracy
-
-The analysis also candidly addresses model limitations (class imbalance affecting minority-class detection), reflecting a realistic, business-honest approach to model evaluation rather than overselling results.
+Proyecto de análisis de datos y modelado predictivo sobre accidentes de tránsito en Brasil, planteado a partir de un problema real de seguridad vial.
 
 ---
 
-## 📁 Files
+## Contexto de Negocio
 
-- [**Proyecto_final_DS.ipynb**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto_final_DS.ipynb) — Full analysis notebook (EDA, hypothesis testing, feature selection, modeling)
-- [**Proyecto final.pdf**](<https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto%20final.pdf>) — Project write-up / presentation
-- [**Acidentes_Brasil_2020-2022.csv**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Acidentes_Brasil_2020-2022.csv) — Source dataset
+Las autoridades de seguridad vial necesitan información basada en datos para diseñar políticas de prevención más efectivas. Este proyecto analiza los registros de accidentes de tránsito en Brasil desde 2020 hasta mediados de 2023, con el objetivo de identificar patrones y factores de riesgo que puedan orientar decisiones de seguridad vial.
+
+## Preguntas de Interés
+
+- ¿Cuál es la tendencia en el número total de accidentes a lo largo de los años?
+- ¿Existe estacionalidad en la ocurrencia de accidentes según mes o estación del año?
+- ¿Cuáles son las condiciones meteorológicas más comunes en los accidentes y cómo afectan su gravedad?
+- ¿Qué días de la semana tienen mayor cantidad de accidentes?
+- ¿Cómo se distribuyen los tipos de carreteras en relación con los accidentes?
+- ¿En qué horario del día ocurren más accidentes?
+- ¿Cuáles son las Unidades Federales (estados) con mayores índices de accidentes?
+
+## Principales Insights
+
+- La cantidad de accidentes se mantuvo relativamente constante entre meses/estaciones, sin un efecto estacional fuerte.
+- Los fines de semana mostraron más accidentes de lo esperado, sugiriendo que los viajes de ocio (no laborales) son un factor relevante.
+- La mayoría de los accidentes ocurrieron con cielo despejado, no en condiciones climáticas adversas — lo que podría indicar exceso de confianza o mayor volumen de tráfico en esos días.
+- Las horas de la tarde y la noche concentraron la mayor cantidad de accidentes.
+- Minas Gerais, Santa Catarina y Paraná se destacaron con los mayores índices de accidentes, sugiriendo la necesidad de políticas de seguridad específicas por región.
+
+## Modelado Predictivo
+
+Además del análisis exploratorio, el proyecto aplica un análisis de **Information Value (IV)** para selección de variables, y luego construye y compara dos modelos de clasificación para predecir la gravedad de los accidentes:
+
+- **Árbol de Decisión** — ~82% de precisión en entrenamiento, ~79% en test
+- **Random Forest** (con optimización de hiperparámetros vía GridSearchCV) — 82.25% de precisión en test
+
+El análisis también aborda con honestidad las limitaciones del modelo (desbalance de clases que afecta la detección de la clase minoritaria), reflejando un enfoque realista y riguroso en la evaluación de modelos, sin sobrevender los resultados.
 
 ---
 
-*Built with Python (pandas, scikit-learn, seaborn) | Data Analysis & Data Science project.*
+## 📁 Archivos
+
+- [**Proyecto_final_DS.ipynb**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto_final_DS.ipynb) — Notebook completo del análisis (EDA, prueba de hipótesis, selección de variables, modelado)
+- [**Proyecto final.pdf**](<https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Proyecto%20final.pdf>) — Presentación / informe del proyecto
+- [**Acidentes_Brasil_2020-2022.csv**](https://github.com/Luovelar/Brazil-Road-Accidents-Analysis/blob/main/Acidentes_Brasil_2020-2022.csv) — Dataset original
+
+---
+
+*Desarrollado con Python (pandas, scikit-learn, seaborn) | Proyecto de Análisis de Datos y Data Science.*
